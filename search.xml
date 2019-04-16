@@ -1,32 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[哈哈]]></title>
-    <url>%2F2019%2F04%2F16%2F%E5%93%88%E5%93%88%2F</url>
-    <content type="text"><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[美图]]></title>
-    <url>%2F2019%2F04%2F16%2F%E7%BE%8E%E5%9B%BE%2F</url>
-    <content type="text"><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[壁纸]]></title>
+    <title><![CDATA[一轮新月]]></title>
     <url>%2F2019%2F04%2F16%2F%E7%BE%8E%E5%9B%BE%E9%98%BF%2F</url>
     <content type="text"><![CDATA[Hexo 是一个基于nodejs 的静态博客网站生成器，作者是来自台湾的 Tommy Chen]]></content>
       <categories>
         <category>实用技术</category>
         <category>个人博客</category>
+        <category>图片</category>
       </categories>
       <tags>
         <tag>图片</tag>
         <tag>音乐</tag>
       </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[壁纸]]></title>
-    <url>%2F2019%2F04%2F16%2F%E5%A3%81%E7%BA%B8%2F</url>
-    <content type="text"><![CDATA[]]></content>
   </entry>
   <entry>
     <title><![CDATA[花香]]></title>
