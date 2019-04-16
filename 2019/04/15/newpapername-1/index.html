@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html class="theme-next pisces use-motion" lang>
+<html class="theme-next pisces use-motion" lang="zh-Hans">
 
 <head>
   <meta name="generator" content="Hexo 3.8.0">
@@ -79,9 +79,9 @@
   <meta property="og:title" content="新建博客第一天">
   <meta property="og:url"
                                                                                   content="http://yoursite.com/2019/04/15/newpapername-1/index.html">
-  <meta property="og:site_name" content="Hexo">
+  <meta property="og:site_name" content="李二牛">
   <meta property="og:description" content="加油哈哈哈">
-  <meta property="og:locale" content="default">
+  <meta property="og:locale" content="zh-Hans">
   <meta property="og:updated_time" content="2019-04-15T06:42:57.948Z">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="新建博客第一天">
@@ -96,7 +96,7 @@
 
   </script>
 
-  <title>新建博客第一天 | Hexo</title>
+  <title>新建博客第一天 | 李二牛</title>
 
   <noscript>
     <style>
@@ -133,7 +133,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
@@ -147,7 +147,7 @@
             <div class="custom-logo-site-title">
               <a href="/" class="brand" rel="start">
                 <span class="logo-line-before"><i></i></span>
-                <span class="site-title">Hexo</span>
+                <span class="site-title">李二牛</span>
                 <span class="logo-line-after"><i></i></span>
               </a>
             </div>
@@ -265,7 +265,7 @@
 
                   <span hidden itemprop="publisher" itemscope
                                                                                                   itemtype="http://schema.org/Organization">
-                    <meta itemprop="name" content="Hexo">
+                    <meta itemprop="name" content="李二牛">
                   </span>
 
                   <header class="post-header">
@@ -302,6 +302,18 @@
                         </a>
                       </span>
 
+                      <span id="/2019/04/15/newpapername-1/" class="leancloud_visitors"
+                                                                                                      data-flag-title="新建博客第一天">
+                        <span class="post-meta-divider">|</span>
+                        <span class="post-meta-item-icon">
+                          <i class="fa fa-eye"></i>
+                        </span>
+
+                        <span class="post-meta-item-text">Views: </span>
+
+                        <span class="leancloud-visitors-count"></span>
+                      </span>
+
                     </div>
                   </header>
 
@@ -316,6 +328,47 @@
                     <div class="post-tags">
 
                       <a href="/tags/李二牛/" rel="tag"># 李二牛</a>
+
+                    </div>
+
+                    <div class="post-widgets">
+
+                      <div class="social_share">
+
+                        <div>
+
+                          <script
+                                                                                                          src="//cdn.jsdelivr.net/npm/ilyabirman-likely@2/release/likely.js">
+                          </script>
+
+                          <link rel="stylesheet"
+                                                                                                          href="//cdn.jsdelivr.net/npm/ilyabirman-likely@2/release/likely.css">
+
+                          <div class="likely">
+
+                            <div class="twitter">Tweet</div>
+
+                            <div class="facebook">Share</div>
+
+                            <div class="linkedin">Link</div>
+
+                            <div class="gplus">Plus</div>
+
+                            <div class="vkontakte">Share</div>
+
+                            <div class="odnoklassniki">Class</div>
+
+                            <div class="telegram">Send</div>
+
+                            <div class="whatsapp">Send</div>
+
+                            <div class="pinterest">Pin</div>
+
+                          </div>
+
+                        </div>
+
+                      </div>
 
                     </div>
 
@@ -369,6 +422,9 @@
               <div class="site-overview">
                 <div class="site-author motion-element" itemprop="author" itemscope
                                                                                                 itemtype="http://schema.org/Person">
+
+                  <img class="site-author-image" itemprop="image" src="/images/avatar.gif"
+                                                                                                  alt="John Doe">
 
                   <p class="site-author-name" itemprop="name">John Doe</p>
                   <div class="site-description motion-element"
@@ -835,6 +891,80 @@
       if (shouldDismissSearchPopup) {
         onPopupClose();
       }
+    });
+
+  </script>
+
+  <script>
+    function addCount(Counter) {
+      var $visitors = $('.leancloud_visitors');
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      Counter('get', '/classes/Counter', {
+          where: JSON.stringify({
+            url
+          })
+        })
+        .done(function({
+          results
+        }) {
+          if (results.length > 0) {
+            var counter = results[0];
+            Counter('put', '/classes/Counter/' + counter.objectId, JSON
+                .stringify({
+                  time: {
+                    '__op': 'Increment',
+                    'amount': 1
+                  }
+                }))
+              .done(function() {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter
+                  .time + 1);
+              })
+              .fail(function({
+                responseJSON
+              }) {
+                console.log(
+                  'Failed to save Visitor num, with error message: ' +
+                  responseJSON.error);
+              })
+          } else {
+            var $element = $(document.getElementById(url));
+            $element.find('.leancloud-visitors-count').text(
+              'Counter not initialized! More info at console err msg.');
+            console.error(
+              'ATTENTION! LeanCloud counter has security bug, see how to solve it here: https://github.com/theme-next/hexo-leancloud-counter-security. \n However, you can still use LeanCloud without security, by setting `security` option to `false`.'
+              );
+          }
+        })
+        .fail(function({
+          responseJSON
+        }) {
+          console.log('LeanCloud Counter Error: ' + responseJSON.code + ' ' +
+            responseJSON.error);
+        });
+    }
+    $(function() {
+      $.get('https://app-router.leancloud.cn/2/route?appId=' +
+          'scROcK2o0r7hWKG17uqaQ7pc-gzGzoHsz')
+        .done(function({
+          api_server
+        }) {
+          var Counter = function(method, url, data) {
+            return $.ajax({
+              method: method,
+              url: 'https://' + api_server + '/1.1' + url,
+              headers: {
+                'X-LC-Id': 'scROcK2o0r7hWKG17uqaQ7pc-gzGzoHsz',
+                'X-LC-Key': 'encV8cAi9oxCJJL6ee7lXOev',
+                'Content-Type': 'application/json',
+              },
+              data: data
+            });
+          };
+          addCount(Counter);
+        });
     });
 
   </script>
