@@ -249,6 +249,115 @@
 
                 <div class="post-block">
                   <link itemprop="mainEntityOfPage"
+                                                                                                  href="http://yoursite.com/2019/04/17/github-com-443错误的两种解决方案/">
+
+                  <span hidden itemprop="author" itemscope
+                                                                                                  itemtype="http://schema.org/Person">
+                    <meta itemprop="name" content="John Doe">
+                    <meta itemprop="description" content>
+                    <meta itemprop="image" content="/images/avatar.gif">
+                  </span>
+
+                  <span hidden itemprop="publisher" itemscope
+                                                                                                  itemtype="http://schema.org/Organization">
+                    <meta itemprop="name" content="李二牛">
+                  </span>
+
+                  <header class="post-header">
+
+                    <h1 class="post-title" itemprop="name headline">
+
+                      <a href="/2019/04/17/github-com-443错误的两种解决方案/" class="post-title-link"
+                                                                                                      itemprop="url">github.com:443错误的两种解决方案</a>
+
+                    </h1>
+
+                    <div class="post-meta">
+                      <span class="post-time">
+
+                        <span class="post-meta-item-icon">
+                          <i class="fa fa-calendar-o"></i>
+                        </span>
+
+                        <span class="post-meta-item-text">Posted on</span>
+
+                        <time title="Created: 2019-04-17 15:12:21 / Modified: 15:13:59" itemprop="dateCreated datePublished"
+                                                                                                        datetime="2019-04-17T15:12:21+08:00">2019-04-17</time>
+
+                      </span>
+
+                      <span class="post-comments-count">
+                        <span class="post-meta-divider">|</span>
+                        <span class="post-meta-item-icon">
+                          <i class="fa fa-comment-o"></i>
+                        </span>
+
+                        <span class="post-meta-item-text">Comments: </span>
+                        <a href="/2019/04/17/github-com-443错误的两种解决方案/#comments"
+                                                                                                        itemprop="discussionUrl">
+                          <span class="post-comments-count valine-comment-count" data-xid="/2019/04/17/github-com-443错误的两种解决方案/"
+                                                                                                          itemprop="commentCount"></span>
+                        </a>
+                      </span>
+
+                      <span id="/2019/04/17/github-com-443错误的两种解决方案/" class="leancloud_visitors"
+                                                                                                      data-flag-title="github.com:443错误的两种解决方案">
+                        <span class="post-meta-divider">|</span>
+                        <span class="post-meta-item-icon">
+                          <i class="fa fa-eye"></i>
+                        </span>
+
+                        <span class="post-meta-item-text">Views: </span>
+
+                        <span class="leancloud-visitors-count"></span>
+                      </span>
+
+                    </div>
+                  </header>
+
+                  <div class="post-body" itemprop="articleBody">
+
+                    <p>错误来源<br>使用使用hexo部署博客是，遇到以下错误:</p>
+                    <p>fatal: unable to access ‘<a href="https://github.com/silenceboychen/silenceboychen.github.io.git/&#39;"
+                                                                                                      target="_blank"
+                                                                                                      rel="noopener">https://github.com/silenceboychen/silenceboychen.github.io.git/&#39;</a>:
+                      LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to
+                      github.com:443<br>FATAL Something’s wrong. Maybe you can
+                      find the solution
+                      here: <a href="http://hexo.io/docs/troubleshooting.html" target="_blank"
+                                                                                                      rel="noopener">http://hexo.io/docs/troubleshooting.html</a><br>Error:
+                      Spawn failed<br> at ChildProcess.<anonymous>
+                        (/Users/chenhao/new_start/nodejs/blog/node_modules/hexo-util/lib/spawn.js:52:19)<br>
+                        at ChildProcess.emit (events.js:182:13)<br> at
+                        Process.ChildProcess._handle.onexit
+                        (internal/child_process.js:239:12)
+                      </anonymous>
+                    </p>
+                    <p>两种解决方案：<br>方案一<br>1.<br>取消http代理：</p>
+                    <p>$ git config –global –unset http.proxy<br>$ git config
+                      –global –unset
+                      https.proxy</p>
+                    <p>2.<br>设置env GIT_SSL_NO_VERIFY为true然后再次部署：</p>
+                    <p>$ env GIT_SSL_NO_VERIFY=true hexo d<br>问题解决。</p>
+                    <p>方案二</p>
+                    <p>在hexo项目的根目录下的_config.yml文件中把仓库链接地址由https修改为ssh的地址。</p>
+
+                  </div>
+
+                  <footer class="post-footer">
+
+                    <div class="post-eof"></div>
+
+                  </footer>
+                </div>
+
+              </article>
+
+              <article class="post post-type-normal" itemscope
+                                                                                              itemtype="http://schema.org/Article">
+
+                <div class="post-block">
+                  <link itemprop="mainEntityOfPage"
                                                                                                   href="http://yoursite.com/2019/04/16/美图阿/">
 
                   <span hidden itemprop="author" itemscope
@@ -854,7 +963,7 @@
 
                     <a href="/archives/">
 
-                      <span class="site-state-item-count">5</span>
+                      <span class="site-state-item-count">6</span>
                       <span class="site-state-item-name">posts</span>
                     </a>
                   </div>
@@ -868,7 +977,7 @@
 
                   <div class="site-state-item site-state-tags">
 
-                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">tags</span>
 
                   </div>
