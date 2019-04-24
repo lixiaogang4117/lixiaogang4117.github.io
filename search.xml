@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>%2F2019%2F04%2F24%2F%E5%BF%83%E7%81%B5%E9%B8%A1%E6%B1%A4%2F</url>
+    <content type="text"><![CDATA[欢迎使用 Cmd Markdown 编辑阅读器 我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，Cmd Markdown 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 Cmd Markdown： 整理知识，学习笔记 发布日记，杂文，所见所想 撰写发布技术文稿（代码支持） 撰写发布学术论文（LaTeX 公式支持）]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[github.com:443错误的两种解决方案]]></title>
     <url>%2F2019%2F04%2F17%2Fgithub-com-443%E9%94%99%E8%AF%AF%E7%9A%84%E4%B8%A4%E7%A7%8D%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
     <content type="text"><![CDATA[错误来源使用使用hexo部署博客是，遇到以下错误: fatal: unable to access ‘https://github.com/silenceboychen/silenceboychen.github.io.git/&#39;: LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443FATAL Something’s wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.htmlError: Spawn failed at ChildProcess. (/Users/chenhao/new_start/nodejs/blog/node_modules/hexo-util/lib/spawn.js:52:19) at ChildProcess.emit (events.js:182:13) at Process.ChildProcess._handle.onexit (internal/child_process.js:239:12) 两种解决方案：方案一1.取消http代理： $ git config –global –unset http.proxy$ git config –global –unset https.proxy 2.设置env GIT_SSL_NO_VERIFY为true然后再次部署： $ env GIT_SSL_NO_VERIFY=true hexo d问题解决。 方案二 在hexo项目的根目录下的_config.yml文件中把仓库链接地址由https修改为ssh的地址。]]></content>
@@ -21,8 +26,8 @@
         <category>图片</category>
       </categories>
       <tags>
-        <tag>图片</tag>
         <tag>音乐</tag>
+        <tag>图片</tag>
       </tags>
   </entry>
   <entry>
