@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://www.xiaogang7755.cn/"/>
   <updated>2019-04-17T07:17:45.539Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://www.xiaogang7755.cn/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>github.com:443错误的两种解决方案</title>
-    <link href="http://yoursite.com/2019/04/17/github-com-443%E9%94%99%E8%AF%AF%E7%9A%84%E4%B8%A4%E7%A7%8D%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
-    <id>http://yoursite.com/2019/04/17/github-com-443错误的两种解决方案/</id>
+    <link href="https://www.xiaogang7755.cn/2019/04/17/github-com-443%E9%94%99%E8%AF%AF%E7%9A%84%E4%B8%A4%E7%A7%8D%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    <id>https://www.xiaogang7755.cn/2019/04/17/github-com-443错误的两种解决方案/</id>
     <published>2019-04-17T07:12:21.000Z</published>
     <updated>2019-04-17T07:17:45.539Z</updated>
     
@@ -35,17 +35,17 @@
     
     </summary>
     
-      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+      <category term="hexo" scheme="https://www.xiaogang7755.cn/categories/hexo/"/>
     
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="https://www.xiaogang7755.cn/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>一轮新月</title>
-    <link href="http://yoursite.com/2019/04/16/%E7%BE%8E%E5%9B%BE%E9%98%BF/"/>
-    <id>http://yoursite.com/2019/04/16/美图阿/</id>
+    <link href="https://www.xiaogang7755.cn/2019/04/16/%E7%BE%8E%E5%9B%BE%E9%98%BF/"/>
+    <id>https://www.xiaogang7755.cn/2019/04/16/美图阿/</id>
     <published>2019-04-16T06:32:35.000Z</published>
     <updated>2019-04-16T06:53:04.860Z</updated>
     
@@ -63,23 +63,23 @@
     
     </summary>
     
-      <category term="实用技术" scheme="http://yoursite.com/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E6%9C%AF/"/>
+      <category term="实用技术" scheme="https://www.xiaogang7755.cn/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="个人博客" scheme="http://yoursite.com/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E6%9C%AF/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+      <category term="个人博客" scheme="https://www.xiaogang7755.cn/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E6%9C%AF/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     
-      <category term="图片" scheme="http://yoursite.com/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E6%9C%AF/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E5%9B%BE%E7%89%87/"/>
+      <category term="图片" scheme="https://www.xiaogang7755.cn/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E6%9C%AF/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E5%9B%BE%E7%89%87/"/>
     
     
-      <category term="图片" scheme="http://yoursite.com/tags/%E5%9B%BE%E7%89%87/"/>
+      <category term="图片" scheme="https://www.xiaogang7755.cn/tags/%E5%9B%BE%E7%89%87/"/>
     
-      <category term="音乐" scheme="http://yoursite.com/tags/%E9%9F%B3%E4%B9%90/"/>
+      <category term="音乐" scheme="https://www.xiaogang7755.cn/tags/%E9%9F%B3%E4%B9%90/"/>
     
   </entry>
   
   <entry>
     <title>花香</title>
-    <link href="http://yoursite.com/2019/04/16/%E8%8A%B1%E9%A6%99/"/>
-    <id>http://yoursite.com/2019/04/16/花香/</id>
+    <link href="https://www.xiaogang7755.cn/2019/04/16/%E8%8A%B1%E9%A6%99/"/>
+    <id>https://www.xiaogang7755.cn/2019/04/16/花香/</id>
     <published>2019-04-16T06:09:02.000Z</published>
     <updated>2019-04-16T06:10:10.741Z</updated>
     
@@ -96,14 +96,14 @@
     </summary>
     
     
-      <category term="音乐" scheme="http://yoursite.com/tags/%E9%9F%B3%E4%B9%90/"/>
+      <category term="音乐" scheme="https://www.xiaogang7755.cn/tags/%E9%9F%B3%E4%B9%90/"/>
     
   </entry>
   
   <entry>
     <title>写给猪猪的话</title>
-    <link href="http://yoursite.com/2019/04/15/%E5%86%99%E7%BB%99%E7%8C%AA%E7%8C%AA%E7%9A%84%E8%AF%9D/"/>
-    <id>http://yoursite.com/2019/04/15/写给猪猪的话/</id>
+    <link href="https://www.xiaogang7755.cn/2019/04/15/%E5%86%99%E7%BB%99%E7%8C%AA%E7%8C%AA%E7%9A%84%E8%AF%9D/"/>
+    <id>https://www.xiaogang7755.cn/2019/04/15/写给猪猪的话/</id>
     <published>2019-04-15T07:15:34.000Z</published>
     <updated>2019-04-15T07:16:33.462Z</updated>
     
@@ -125,14 +125,14 @@
     </summary>
     
     
-      <category term="小白" scheme="http://yoursite.com/tags/%E5%B0%8F%E7%99%BD/"/>
+      <category term="小白" scheme="https://www.xiaogang7755.cn/tags/%E5%B0%8F%E7%99%BD/"/>
     
   </entry>
   
   <entry>
     <title>新建博客第一天</title>
-    <link href="http://yoursite.com/2019/04/15/newpapername-1/"/>
-    <id>http://yoursite.com/2019/04/15/newpapername-1/</id>
+    <link href="https://www.xiaogang7755.cn/2019/04/15/newpapername-1/"/>
+    <id>https://www.xiaogang7755.cn/2019/04/15/newpapername-1/</id>
     <published>2019-04-15T06:36:31.000Z</published>
     <updated>2019-04-15T06:42:57.948Z</updated>
     
@@ -149,14 +149,14 @@
     </summary>
     
     
-      <category term="李二牛" scheme="http://yoursite.com/tags/%E6%9D%8E%E4%BA%8C%E7%89%9B/"/>
+      <category term="李二牛" scheme="https://www.xiaogang7755.cn/tags/%E6%9D%8E%E4%BA%8C%E7%89%9B/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/04/15/hello-world/"/>
-    <id>http://yoursite.com/2019/04/15/hello-world/</id>
+    <link href="https://www.xiaogang7755.cn/2019/04/15/hello-world/"/>
+    <id>https://www.xiaogang7755.cn/2019/04/15/hello-world/</id>
     <published>2019-04-15T02:25:59.268Z</published>
     <updated>2019-04-15T02:25:59.269Z</updated>
     
