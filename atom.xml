@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>李二牛</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-04-17T07:17:45.539Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>github.com:443错误的两种解决方案</title>
+    <link href="http://yoursite.com/2019/04/17/github-com-443%E9%94%99%E8%AF%AF%E7%9A%84%E4%B8%A4%E7%A7%8D%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    <id>http://yoursite.com/2019/04/17/github-com-443错误的两种解决方案/</id>
+    <published>2019-04-17T07:12:21.000Z</published>
+    <updated>2019-04-17T07:17:45.539Z</updated>
+    
+    <content type="html"><![CDATA[<p>错误来源<br>使用使用hexo部署博客是，遇到以下错误:</p><p>fatal: unable to access ‘<a href="https://github.com/silenceboychen/silenceboychen.github.io.git/&#39;" target="_blank" rel="noopener">https://github.com/silenceboychen/silenceboychen.github.io.git/&#39;</a>:  LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to  github.com:443<br>FATAL Something’s wrong. Maybe you can find the solution  here: <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">http://hexo.io/docs/troubleshooting.html</a><br>Error:  Spawn failed<br> at ChildProcess.<anonymous>    (/Users/chenhao/new_start/nodejs/blog/node_modules/hexo-util/lib/spawn.js:52:19)<br>    at ChildProcess.emit (events.js:182:13)<br> at    Process.ChildProcess._handle.onexit (internal/child_process.js:239:12)  </anonymous></p><p>两种解决方案：<br>方案一<br>1.<br>取消http代理：</p><p>$ git config –global –unset http.proxy<br>$ git config –global –unset  https.proxy</p><p>2.<br>设置env GIT_SSL_NO_VERIFY为true然后再次部署：</p><p>$ env GIT_SSL_NO_VERIFY=true hexo d<br>问题解决。</p><p>方案二</p><p>在hexo项目的根目录下的_config.yml文件中把仓库链接地址由https修改为ssh的地址。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;错误来源&lt;br&gt;使用使用hexo部署博客是，遇到以下错误:&lt;/p&gt;
+&lt;p&gt;fatal: unable to access ‘&lt;a href=&quot;https://github.com/silenceboychen/silenceboychen.github.io.git/&amp;#3
+      
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一轮新月</title>
+    <link href="http://yoursite.com/2019/04/16/%E7%BE%8E%E5%9B%BE%E9%98%BF/"/>
+    <id>http://yoursite.com/2019/04/16/美图阿/</id>
+    <published>2019-04-16T06:32:35.000Z</published>
+    <updated>2019-04-16T06:53:04.860Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/2019/04/16/美图阿/L4h2cvheWuc.jpg" alt="你想输入的替代文字"></p><blockquote>  <p>Hexo 是一个基于nodejs 的静态博客网站生成器，作者是来自台湾的 Tommy Chen</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;/2019/04/16/美图阿/L4h2cvheWuc.jpg&quot; alt=&quot;你想输入的替代文字&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Hexo 是一个基于nodejs 的静态博客网站生成器，作者是来自台湾的 Tommy Chen&lt;/p&gt;
+&lt;/b
+      
+    
+    </summary>
+    
+      <category term="实用技术" scheme="http://yoursite.com/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="个人博客" scheme="http://yoursite.com/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E6%9C%AF/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="图片" scheme="http://yoursite.com/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E6%9C%AF/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E5%9B%BE%E7%89%87/"/>
+    
+    
+      <category term="图片" scheme="http://yoursite.com/tags/%E5%9B%BE%E7%89%87/"/>
+    
+      <category term="音乐" scheme="http://yoursite.com/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>花香</title>
+    <link href="http://yoursite.com/2019/04/16/%E8%8A%B1%E9%A6%99/"/>
+    <id>http://yoursite.com/2019/04/16/花香/</id>
+    <published>2019-04-16T06:09:02.000Z</published>
+    <updated>2019-04-16T06:10:10.741Z</updated>
+    
+    <content type="html"><![CDATA[<p>  风没有方向的吹来<br>雨也跟着悲伤起来<br>没有人能告诉我<br>爱是在什么时候悄悄走开<br>风伴着花谢了又开<br>雨把眼泪落向大海<br>现在的我才明白<br>你抱着紫色的梦选择等待<br>记忆是阵阵花香<br>我们说好谁都不能忘<br>守着黑夜的阳光<br>难过却假装坚强<br>等待的日子里<br>你比我勇敢<br>记忆是阵阵花香<br>一起走过永远不能忘<br>你的温柔是阳光<br>把我的未来填满<br>提醒我花香常在<br>就像我的爱</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;
+  风没有方向的吹来&lt;br&gt;雨也跟着悲伤起来&lt;br&gt;没有人能告诉我&lt;br&gt;爱是在什么时候悄悄走开&lt;br&gt;风伴着花谢了又开&lt;br&gt;雨把眼泪落向大海&lt;br&gt;现在的我才明白&lt;br&gt;你抱着紫色的梦选择等待&lt;br&gt;记忆是阵阵花香&lt;br&gt;我们说好谁都不能忘&lt;br&gt;守着黑夜的阳光&lt;br
+      
+    
+    </summary>
+    
+    
+      <category term="音乐" scheme="http://yoursite.com/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>写给猪猪的话</title>
+    <link href="http://yoursite.com/2019/04/15/%E5%86%99%E7%BB%99%E7%8C%AA%E7%8C%AA%E7%9A%84%E8%AF%9D/"/>
+    <id>http://yoursite.com/2019/04/15/写给猪猪的话/</id>
+    <published>2019-04-15T07:15:34.000Z</published>
+    <updated>2019-04-15T07:16:33.462Z</updated>
+    
+    <content type="html"><![CDATA[<p>你是我的眼</p><p>就能准确的在人群中 牵住你的手</p><p>如果我能看得见 就能驾车带你到处遨游</p><p>就能惊喜的从背后 给你一个拥抱</p><p>如果我能看得见 生命也许完全不同</p><p>可能我想要的我喜欢的我爱的 都不一样</p><p>眼前的黑不是黑 你说的白是什么白</p><p>你说的天空蓝 是我记忆中那团白云背后的蓝天</p><p>我望向你的脸 等你 等你</p><p>却只能看见一片虚无 今生执着等你</p><p>是不是上帝在我眼前遮住了帘 没有人知道我等的是你</p><p>忘了掀开 你是我的眼 带我领略四季的变换</p><p>你是我的眼 带我穿越拥挤的人潮</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;你是我的眼&lt;/p&gt;
+&lt;p&gt;就能准确的在人群中 牵住你的手&lt;/p&gt;
+&lt;p&gt;如果我能看得见 就能驾车带你到处遨游&lt;/p&gt;
+&lt;p&gt;就能惊喜的从背后 给你一个拥抱&lt;/p&gt;
+&lt;p&gt;如果我能看得见 生命也许完全不同&lt;/p&gt;
+&lt;p&gt;可能我想要的我喜欢的我爱的 都不一样&lt;/p&gt;
+&lt;p&gt;眼前
+      
+    
+    </summary>
+    
+    
+      <category term="小白" scheme="http://yoursite.com/tags/%E5%B0%8F%E7%99%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新建博客第一天</title>
+    <link href="http://yoursite.com/2019/04/15/newpapername-1/"/>
+    <id>http://yoursite.com/2019/04/15/newpapername-1/</id>
+    <published>2019-04-15T06:36:31.000Z</published>
+    <updated>2019-04-15T06:42:57.948Z</updated>
+    
+    <content type="html"><![CDATA[<p> 加油哈哈哈</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt; 加油哈哈哈&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="李二牛" scheme="http://yoursite.com/tags/%E6%9D%8E%E4%BA%8C%E7%89%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/04/15/hello-world/"/>
+    <id>http://yoursite.com/2019/04/15/hello-world/</id>
+    <published>2019-04-15T02:25:59.268Z</published>
+    <updated>2019-04-15T02:25:59.269Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post.  Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you  get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a>  or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick  Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create  a new post</h3><figure class="highlight bash">  <table>    <tr>      <td class="gutter">        <pre><span class="line">1</span><br></pre>      </td>      <td class="code">        <pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre>      </td>    </tr>  </table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run  server</h3><figure class="highlight bash">  <table>    <tr>      <td class="gutter">        <pre><span class="line">1</span><br></pre>      </td>      <td class="code">        <pre><span class="line">$ hexo server</span><br></pre>      </td>    </tr>  </table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate  static files</h3><figure class="highlight bash">  <table>    <tr>      <td class="gutter">        <pre><span class="line">1</span><br></pre>      </td>      <td class="code">        <pre><span class="line">$ hexo generate</span><br></pre>      </td>    </tr>  </table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy  to remote sites</h3><figure class="highlight bash">  <table>    <tr>      <td class="gutter">        <pre><span class="line">1</span><br></pre>      </td>      <td class="code">        <pre><span class="line">$ hexo deploy</span><br></pre>      </td>    </tr>  </table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post.
+  Check &lt;a href=&quot;https://hex
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
