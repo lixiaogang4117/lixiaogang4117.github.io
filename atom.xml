@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.xiaogang7755.cn/"/>
-  <updated>2019-04-17T07:17:45.539Z</updated>
+  <updated>2019-12-17T09:25:28.343Z</updated>
   <id>https://www.xiaogang7755.cn/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一次性执行</title>
+    <link href="https://www.xiaogang7755.cn/2019/12/17/%E4%B8%80%E6%AC%A1%E6%80%A7%E6%89%A7%E8%A1%8C/"/>
+    <id>https://www.xiaogang7755.cn/2019/12/17/一次性执行/</id>
+    <published>2019-12-17T09:20:39.000Z</published>
+    <updated>2019-12-17T09:25:28.343Z</updated>
+    
+    <content type="html"><![CDATA[<p>一次性执行<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</p><p>  以MacOS系统为例，在个人博客配置文件夹修改好主题文件后，如何推到远端服务器（github仓库）？<br>首先定位到博客文件夹，输入以下命令并回车：<br>  cd  /Users/你的用户文件夹名/你的blog文件夹名<br>开启root权限（超级管理员权限），输入以下命令并回车：<br>  sudo  su<br>最后一步，依次输入hexo三连并回车：<br>  $ hexo clean<br>  $ hexo g<br>  $ hexo  d<br>  这样，我们就成功将新的主题推送到远端服务器，回到我们的个人博客网站刷新即可。PS：刷新一次可能没反应，多刷新几次，或等待一会儿再刷新。</p><p>通过带有预览样式的Markdown编辑器实时预览书写的博文样式，也可以通过命令 hexo s –debug 在本地浏览器的localhost:4000  预览博文效果。写好博文并且样式无误后，通过hexo g、hexo d 生成、部署网页。随后可以在浏览器中输入域名浏览。</p><h2 id="这是我的写博客时的-Markdown-模板"><a href="#这是我的写博客时的-Markdown-模板" class="headerlink" title="这是我的写博客时的 Markdown 模板"></a>这是我的写博客时的  Markdown 模板</h2><p>title: ‘ ‘<br>layout: post<br>date: 2016-11-15 16:27:13<br>updated:  2016-11-15 16:27:13<br>comments: true<br>categories:<br>tags:  [生活,感悟,总结]<br>keywords: 算法,javascript</p><h2 id="description"><a href="#description" class="headerlink" title="description: "></a>description:</h2><a id="more"></a><p>  <!-- more -->这个是你想显示摘要的 line 。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一次性执行&lt;br&gt;hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo d&lt;/p&gt;
+&lt;p&gt;
+  以MacOS系统为例，在个人博客配置文件夹修改好主题文件后，如何推到远端服务器（github仓库）？&lt;br&gt;首先定位到博客文件夹，输入以下命令并回车：&lt;br&gt;  cd
+  /Users/你的用户文件夹名/你的blog文件夹名&lt;br&gt;开启root权限（超级管理员权限），输入以下命令并回车：&lt;br&gt;  sudo
+  su&lt;br&gt;最后一步，依次输入hexo三连并回车：&lt;br&gt;  $ hexo clean&lt;br&gt;  $ hexo g&lt;br&gt;  $ hexo
+  d&lt;br&gt;  这样，我们就成功将新的主题推送到远端服务器，回到我们的个人博客网站刷新即可。PS：刷新一次可能没反应，多刷新几次，或等待一会儿再刷新。&lt;/p&gt;
+&lt;p&gt;通过带有预览样式的Markdown编辑器实时预览书写的博文样式，也可以通过命令 hexo s –debug 在本地浏览器的localhost:4000
+  预览博文效果。写好博文并且样式无误后，通过hexo g、hexo d 生成、部署网页。随后可以在浏览器中输入域名浏览。&lt;/p&gt;
+&lt;h2 id=&quot;这是我的写博客时的-Markdown-模板&quot;&gt;&lt;a href=&quot;#这是我的写博客时的-Markdown-模板&quot; class=&quot;headerlink&quot; title=&quot;这是我的写博客时的 Markdown 模板&quot;&gt;&lt;/a&gt;这是我的写博客时的
+  Markdown 模板&lt;/h2&gt;
+&lt;p&gt;title: ‘ ‘&lt;br&gt;layout: post&lt;br&gt;date: 2016-11-15 16:27:13&lt;br&gt;updated:
+  2016-11-15 16:27:13&lt;br&gt;comments: true&lt;br&gt;categories:&lt;br&gt;tags:
+  [生活,感悟,总结]&lt;br&gt;keywords: 算法,javascript&lt;/p&gt;
+&lt;h2 id=&quot;description&quot;&gt;&lt;a href=&quot;#description&quot; class=&quot;headerlink&quot; title=&quot;description: &quot;&gt;&lt;/a&gt;description:
+&lt;/h2&gt;
+    
+    </summary>
+    
+    
+      <category term="生活" scheme="https://www.xiaogang7755.cn/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+      <category term="感悟" scheme="https://www.xiaogang7755.cn/tags/%E6%84%9F%E6%82%9F/"/>
+    
+      <category term="总结" scheme="https://www.xiaogang7755.cn/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
   
   <entry>
     <title>github.com:443错误的两种解决方案</title>

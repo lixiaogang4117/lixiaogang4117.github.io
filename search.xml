@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[一次性执行]]></title>
+    <url>%2F2019%2F12%2F17%2F%E4%B8%80%E6%AC%A1%E6%80%A7%E6%89%A7%E8%A1%8C%2F</url>
+    <content type="text"><![CDATA[一次性执行hexo clean &amp;&amp; hexo g &amp;&amp; hexo d 以MacOS系统为例，在个人博客配置文件夹修改好主题文件后，如何推到远端服务器（github仓库）？首先定位到博客文件夹，输入以下命令并回车： cd /Users/你的用户文件夹名/你的blog文件夹名开启root权限（超级管理员权限），输入以下命令并回车： sudo su最后一步，依次输入hexo三连并回车： $ hexo clean $ hexo g $ hexo d 这样，我们就成功将新的主题推送到远端服务器，回到我们的个人博客网站刷新即可。PS：刷新一次可能没反应，多刷新几次，或等待一会儿再刷新。 通过带有预览样式的Markdown编辑器实时预览书写的博文样式，也可以通过命令 hexo s –debug 在本地浏览器的localhost:4000 预览博文效果。写好博文并且样式无误后，通过hexo g、hexo d 生成、部署网页。随后可以在浏览器中输入域名浏览。 这是我的写博客时的 Markdown 模板 title: ‘ ‘layout: postdate: 2016-11-15 16:27:13updated: 2016-11-15 16:27:13comments: truecategories:tags: [生活,感悟,总结]keywords: 算法,javascript description: 这个是你想显示摘要的 line 。]]></content>
+      <tags>
+        <tag>生活</tag>
+        <tag>感悟</tag>
+        <tag>总结</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[github.com:443错误的两种解决方案]]></title>
     <url>%2F2019%2F04%2F17%2Fgithub-com-443%E9%94%99%E8%AF%AF%E7%9A%84%E4%B8%A4%E7%A7%8D%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%2F</url>
     <content type="text"><![CDATA[错误来源使用使用hexo部署博客是，遇到以下错误: fatal: unable to access ‘https://github.com/silenceboychen/silenceboychen.github.io.git/&#39;: LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443FATAL Something’s wrong. Maybe you can find the solution here: http://hexo.io/docs/troubleshooting.htmlError: Spawn failed at ChildProcess. (/Users/chenhao/new_start/nodejs/blog/node_modules/hexo-util/lib/spawn.js:52:19) at ChildProcess.emit (events.js:182:13) at Process.ChildProcess._handle.onexit (internal/child_process.js:239:12) 两种解决方案：方案一1.取消http代理： $ git config –global –unset http.proxy$ git config –global –unset https.proxy 2.设置env GIT_SSL_NO_VERIFY为true然后再次部署： $ env GIT_SSL_NO_VERIFY=true hexo d问题解决。 方案二 在hexo项目的根目录下的_config.yml文件中把仓库链接地址由https修改为ssh的地址。]]></content>

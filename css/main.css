@@ -2239,7 +2239,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6bffb6;
+  background: #671c79;
 }
 
 .feed-link,
@@ -3463,7 +3463,7 @@ ul.breadcrumb li+li:last-child {
 
 @media screen and (min-width: 1200px) {
   body {
-    background-image: url("/images/background.jpg");
+    background-image: url("/images/TmJDsZ3_CCI.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50% 50%;
