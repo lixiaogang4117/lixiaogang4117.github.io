@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[一次性执行]]></title>
+    <title><![CDATA[博客一次执行]]></title>
     <url>%2F2019%2F12%2F17%2F%E4%B8%80%E6%AC%A1%E6%80%A7%E6%89%A7%E8%A1%8C%2F</url>
     <content type="text"><![CDATA[一次性执行hexo clean &amp;&amp; hexo g &amp;&amp; hexo d 以MacOS系统为例，在个人博客配置文件夹修改好主题文件后，如何推到远端服务器（github仓库）？首先定位到博客文件夹，输入以下命令并回车： cd /Users/你的用户文件夹名/你的blog文件夹名开启root权限（超级管理员权限），输入以下命令并回车： sudo su最后一步，依次输入hexo三连并回车： $ hexo clean $ hexo g $ hexo d 这样，我们就成功将新的主题推送到远端服务器，回到我们的个人博客网站刷新即可。PS：刷新一次可能没反应，多刷新几次，或等待一会儿再刷新。 通过带有预览样式的Markdown编辑器实时预览书写的博文样式，也可以通过命令 hexo s –debug 在本地浏览器的localhost:4000 预览博文效果。写好博文并且样式无误后，通过hexo g、hexo d 生成、部署网页。随后可以在浏览器中输入域名浏览。 这是我的写博客时的 Markdown 模板 title: ‘ ‘layout: postdate: 2016-11-15 16:27:13updated: 2016-11-15 16:27:13comments: truecategories:tags: [生活,感悟,总结]keywords: 算法,javascript description: 这个是你想显示摘要的 line 。]]></content>
       <tags>
@@ -44,11 +44,11 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[写给猪猪的话]]></title>
+    <title><![CDATA[你是我的大眼睛]]></title>
     <url>%2F2019%2F04%2F15%2F%E5%86%99%E7%BB%99%E7%8C%AA%E7%8C%AA%E7%9A%84%E8%AF%9D%2F</url>
     <content type="text"><![CDATA[你是我的眼 就能准确的在人群中 牵住你的手 如果我能看得见 就能驾车带你到处遨游 就能惊喜的从背后 给你一个拥抱 如果我能看得见 生命也许完全不同 可能我想要的我喜欢的我爱的 都不一样 眼前的黑不是黑 你说的白是什么白 你说的天空蓝 是我记忆中那团白云背后的蓝天 我望向你的脸 等你 等你 却只能看见一片虚无 今生执着等你 是不是上帝在我眼前遮住了帘 没有人知道我等的是你 忘了掀开 你是我的眼 带我领略四季的变换 你是我的眼 带我穿越拥挤的人潮]]></content>
       <tags>
-        <tag>小白</tag>
+        <tag>白小白</tag>
       </tags>
   </entry>
   <entry>
