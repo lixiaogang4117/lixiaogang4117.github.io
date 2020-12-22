@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.xiaogang7755.cn/"/>
-  <updated>2020-07-03T08:04:24.910Z</updated>
+  <updated>2020-12-22T05:41:04.139Z</updated>
   <id>https://www.xiaogang7755.cn/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://www.xiaogang7755.cn/2020/12/22/Markdown/"/>
+    <id>https://www.xiaogang7755.cn/2020/12/22/Markdown/</id>
+    <published>2020-12-22T05:41:04.138Z</published>
+    <updated>2020-12-22T05:41:04.139Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><p> Markdown 标题有两种格式</p><h5 id="1、使用-和-标记一级和二级标题"><a href="#1、使用-和-标记一级和二级标题" class="headerlink" title="1、使用 = 和 - 标记一级和二级标题"></a>1、使用  = 和 - 标记一级和二级标题</h5><ul>  <li>    <p>= 和 - 标记语法格式如下：</p>    <p><img src="/2020/12/22/Markdown/Markdown.resources/NSFileHandle_1.png" alt="db9db942dc648e61b2a005b06026e782"><br>显示效果如下图：<br><img src="/2020/12/22/Markdown/Markdown.resources/NSFileHandle_2.png" alt="c935f1e53296086839940534b770c20e">    </p>    <h5 id="2、使用-号标记"><a href="#2、使用-号标记" class="headerlink" title="2、使用 # 号标记"></a>2、使用      # 号标记</h5>  </li>  <li>    <p>使用 # 号可表示 1-6 级标题，一级标题对应一个 # 号，二级标题对应两个 # 号，以此类推。</p>    <p><img src="/2020/12/22/Markdown/Markdown.resources/NSFileHandle.png" alt="713c23c779410928ee9986f590a21d30"><br>显示效果如下图：<br><img src="/2020/12/22/Markdown/Markdown.resources/NSFileHandle.gif" alt="6721b1c237cd2bfc4939d325984338fe">    </p>  </li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Markdown&quot;&gt;&lt;a href=&quot;#Markdown&quot; class=&quot;headerlink&quot; title=&quot;Markdown&quot;&gt;&lt;/a&gt;Markdown
+&lt;/h1&gt;
+&lt;p&gt; Markdown 标题有两种格式&lt;/p&gt;
+&lt;h5 id=&quot;1、使用-和-标记一级和二级
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>博客一次执行</title>
@@ -107,9 +131,9 @@
       <category term="图片" scheme="https://www.xiaogang7755.cn/categories/%E5%AE%9E%E7%94%A8%E6%8A%80%E6%9C%AF/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/%E5%9B%BE%E7%89%87/"/>
     
     
-      <category term="图片" scheme="https://www.xiaogang7755.cn/tags/%E5%9B%BE%E7%89%87/"/>
-    
       <category term="音乐" scheme="https://www.xiaogang7755.cn/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+      <category term="图片" scheme="https://www.xiaogang7755.cn/tags/%E5%9B%BE%E7%89%87/"/>
     
   </entry>
   
